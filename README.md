@@ -8,11 +8,14 @@ Ohjelma tallentaa PDF tiedostot perustuslakivaliokunnan aineistosta (PeV) seuraa
 - Valiokunnan mietintö 
 - Valiokunnan lausunto
 - Asiantuntijalausunto
+
 Kaikki muut ohitetaan. 
 
 ## Ohjelman käyttö
-Kopioi prog kansio omalle koneellesi haluamaasi paikkaan. 
+Kopioi prog -kansio omalle koneellesi haluamaasi paikkaan. 
+
 Ohjelma tarvitsee config.txt tiedoston, jossa on tiedo suurimmasta ladatusta ID arvosta
+
 Ohjelma lataa tiedostot kolmeen alikansioon
 - asiantuntija
 - lausunto 
