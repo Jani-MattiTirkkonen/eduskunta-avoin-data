@@ -7,7 +7,7 @@ Ohjelma lukee APIsta VaskiData aineistoa läpi. Käynnistyessään kysyy mistä 
 Ohjelma tallentaa PDF tiedostot perustuslakivaliokunnan aineistosta (PeV) seuraavat asiakirjatyypit:
 - Valiokunnan mietintö (eduskuntatunnus=PeVM)
 - Valiokunnan lausunto (eduskuntatunnus=PeVL)
-- Asiantuntijalausunto (asiakirjatyyppinimi=ssiantuntijalausunto)
+- Asiantuntijalausunto (asiakirjatyyppinimi=asiantuntijalausunto)
 
 Kaikki muut ohitetaan. 
 
@@ -16,6 +16,8 @@ Eduskunta ei syötä metatietoja asiantuntijalausunnoista, joten ne yritetään 
 
 ## Ohjelman käyttö
 Kopioi dist -kansio omalle koneellesi haluamaasi paikkaan. 
+Ohjelma käynnistetään terminaalissa ko. hakemistossa komennolla
+java -jar "eduskunta-avoin-data.jar" 
 
 Ohjelma tarvitsee config.txt tiedoston, jossa on tiedo suurimmasta ladatusta ID arvosta
 
