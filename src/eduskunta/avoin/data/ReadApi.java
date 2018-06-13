@@ -165,6 +165,10 @@ public class ReadApi {
                     liiteKohde = FileSystems.getDefault().getPath(System.getProperty("user.dir") + File.separator + "asiantuntija" + File.separator + liiteNimi);
 
                     try {
+                        
+                        System.setProperty("org.apache.commons.logging.Log",
+                           "org.apache.commons.logging.impl.NoOpLog");
+                        
                         PDDocument document = PDDocument.load(in);
                         String text = "";
                         if (!document.isEncrypted()) {
